@@ -1,10 +1,10 @@
-import http from "http";
+import https from "https";
 import chalk from "chalk";
 
-const url = "http://official-joke-api.appspot.com/random_joke";
+const url = "https://official-joke-api.appspot.com/random_joke";
 
 function getJoke() {
-  http.get(url, (response) => {
+  https.get(url, (response) => {
 
     const chunks = [];
 
