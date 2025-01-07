@@ -3,6 +3,11 @@ import readline from "readline";
 import { configDotenv } from "dotenv";
 configDotenv();
 
+// you can try this api 
+// dc71e72e8d3ec8d1384ae864
+
+
+
 const url = `https://v6.exchangerate-api.com/v6/${process.env.API_KEY}/latest/USD`;
 
 const rl = readline.createInterface({
